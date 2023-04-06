@@ -51,6 +51,7 @@ function validation(){
 		}else if(Description==""){ 
 			toastr.warning("Please enter a Description...");	
 			return false;
+			return false;
 		}
 
 }
